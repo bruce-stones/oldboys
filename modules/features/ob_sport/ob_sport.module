@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Sport feature.
+ */
+
+include_once 'ob_sport.features.inc';
