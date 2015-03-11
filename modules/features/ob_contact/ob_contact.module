@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Contact form feature.
+ */
+
+include_once 'ob_contact.features.inc';
