@@ -1,0 +1,30 @@
+name        = Zen Slate
+screenshot  = screenshot.png
+description = Very basic Slate Zen Sub-theme.
+core        = 7.x
+base theme  = zen
+
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/zen_slate.css
+
+regions[header]  = Header
+regions[help]    = Help
+regions[content] = Content
+regions[footer]  = Footer
+
+; Required.
+regions[page_top]    = Page top
+regions[page_bottom] = Page bottom
+
+features[] = logo
+features[] = name
+features[] = favicon
+
+settings[zen_breadcrumb] = no
+
+
+; Information added by drush on 2015-03-06
+version = "unknown"
+project = "zen_slate"
+datestamp = "1425678098"
+

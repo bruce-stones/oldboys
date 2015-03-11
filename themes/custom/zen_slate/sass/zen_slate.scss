@@ -1,0 +1,155 @@
+/******************************************************************************/
+/* Imports                                                                    */
+/******************************************************************************/
+  @import "base";
+  @import "compass";
+/******************************************************************************/
+/* Variables                                                                  */
+/******************************************************************************/
+  $colour_slate:                 #8CABBE;
+  $colour_body_text:             lighten(black, 40%);
+  $colour_body_link_basic:       darken(saturate($colour_slate, 35%), 20%);
+  $colour_body_link_hover:       darken(saturate($colour_slate, 25%), 40%);
+  $colour_body_background:       darken(white, 5%);
+  $colour_heading_text:          $colour_slate;
+  $colour_select_text:           $colour_body_background;
+  $colour_select_background:     $colour_body_link_basic;
+  $colour_site_name_link_basic:  $colour_body_link_hover;
+  $colour_site_name_link_hover:  $colour_body_link_basic;
+  $page-width:                   960px;
+  $border:                       1px solid lighten($colour_slate, 25%);
+  $border_radius:                5px;
+/*****************************************************************************/
+/* Mixin: Text Size                                                          */
+/*****************************************************************************/
+  html { font-size: 62.5%; }
+  @mixin font-size($sizeValue: 1.6){
+    font-size: ($sizeValue * 10) + px;
+    font-size: $sizeValue + rem;
+  }
+/*****************************************************************************/
+/* Mixin: Links                                                              */
+/*****************************************************************************/
+  @mixin links($colour, $hover) { text-decoration: none; color: $colour;
+    &:link, &:visited {           text-decoration: none; color: $colour; }
+    &:hover, &:focus, .active {   text-decoration: none; color: $hover;  }
+  }
+/*****************************************************************************/
+/* Mixin: Selection                                                          */
+/*****************************************************************************/
+  $prefixes: ("-webkit-","-moz-", "-o-", "");
+  @mixin selection($color, $background) {
+    @each $prefix in $prefixes {
+      ::#{$prefix}selection {
+        color:      $color;
+        background: $background;
+        text-shadow: none;
+      }
+    }
+  }
+/*****************************************************************************/
+/* Mixin: Rounded Border                                                     */
+/*****************************************************************************/
+  @mixin content-tile() {
+    background: white;
+    border: $border;
+    @include border-radius($border_radius);
+  }
+/*****************************************************************************/
+/* Generic                                                                   */
+/*****************************************************************************/
+  body {
+    color: $colour_body_text; background: $colour_body_background;
+    @include font-size(1.4); line-height: 1.6em;
+    @include selection($colour_select_text, $colour_select_background);
+  }
+  a { @include links($colour_body_link_basic, $colour_body_link_hover); }
+/*****************************************************************************/
+/* Layout                                                                    */
+/*****************************************************************************/
+  #page {
+    width: $page-width;
+    margin: 0 auto;
+  }
+/*****************************************************************************/
+/* Header                                                                    */
+/*****************************************************************************/
+  #logo { float: left; padding: 20px; img { display: block; } }
+  #site-name {
+    margin: 0; padding: 0;
+    line-height: 1.3em; @include font-size(6); font-weight: normal;
+  }
+  #site-name a {
+    @include links($colour_site_name_link_basic, $colour_site_name_link_hover);
+  }
+/*****************************************************************************/
+/* Main Menu                                                                 */
+/*****************************************************************************/
+  #block-system-main-menu {
+    line-height: 1em; @include font-size(1.2);
+    display: block; height: 30px; margin: 10px 0; padding: 0;
+    @include content-tile();
+    ul.menu {
+      @include inline-list;
+      li a { display: inline-block; padding: 9px; height: 12px; }
+      li.first a {
+        padding-left: 14px;
+        @include border-radius($border_radius 0px 0px $border_radius);
+      }
+      a { @include links(#333, #333); }
+      a:link, a:visited { background: #fff; }
+      a:hover, a:focus  { background: #eee; }
+    }
+  }
+/*****************************************************************************/
+/* Tabs                                                                      */
+/*****************************************************************************/
+  ul.primary, ul.secondary {
+    @include inline-list;
+    @include font-size(1.1); line-height: 1em;
+    a  {
+      display: inline-block; margin: 0 3px; padding: 3px 6px;
+      border: $border;
+    }
+    a:hover, a:focus, a.active { background: $colour_body_background; }
+  }
+/*****************************************************************************/
+/* Content                                                                   */
+/*****************************************************************************/
+  #content .wrap {
+    margin-bottom: 20px; padding: 6px 10px;
+    @include content-tile();
+  }
+  h1#page-title {
+    @include font-size(1.5); color: $colour_heading_text; line-height: 1.2em;
+    margin: 0 0 0.5em 0; padding: 5px 5px 5px 6px;
+    border-bottom: $border;
+  }
+/*****************************************************************************/
+/* Recommended Modules                                                       */
+/*****************************************************************************/
+  .recommended-modules {
+    font-size: 0.8em;
+    h2 {
+      display: block; margin: 0; padding: 5px 10px 0 10px;
+      padding-left: 10px;
+    }
+    ul {
+      display: block; margin: 0; padding: 0;
+      list-style: none; @include clearfix();
+    }
+    li {
+      display: block; margin: 5px; padding: 0;
+      width: 300px; float: left;
+      border: 1px solid #e5e5e5; @include border-radius(5px);
+    }
+    h3 {
+      display: block; margin: 0; padding: 2px 4px; background: #f2f2f2;
+      white-space: nowrap; overflow: hidden;
+    }
+    p {
+      display: block; margin: 0; padding: 5px; line-height: 1.4em;
+      height: 30px; overflow: hidden;
+    }
+  }
+/*****************************************************************************/

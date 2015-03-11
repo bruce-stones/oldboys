@@ -1,0 +1,303 @@
+/******************************************************************************/
+/* Imports                                                                    */
+/******************************************************************************/
+/******************************************************************************/
+/* Variables                                                                  */
+/******************************************************************************/
+/*****************************************************************************/
+/* Mixin: Text Size                                                          */
+/*****************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000325}}
+html {
+  font-size: 62.5%;
+}
+
+/*****************************************************************************/
+/* Mixin: Links                                                              */
+/*****************************************************************************/
+/*****************************************************************************/
+/* Mixin: Selection                                                          */
+/*****************************************************************************/
+/*****************************************************************************/
+/* Mixin: Rounded Border                                                     */
+/*****************************************************************************/
+/*****************************************************************************/
+/* Generic                                                                   */
+/*****************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000361}}
+body {
+  color: #666666;
+  background: #f2f2f2;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.6em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000343}}
+body ::-webkit-selection {
+  color: #f2f2f2;
+  background: #2a83ba;
+  text-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000343}}
+body ::-moz-selection {
+  color: #f2f2f2;
+  background: #2a83ba;
+  text-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000343}}
+body ::-o-selection {
+  color: #f2f2f2;
+  background: #2a83ba;
+  text-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000343}}
+body ::selection {
+  color: #f2f2f2;
+  background: #2a83ba;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000366}}
+a {
+  text-decoration: none;
+  color: #2a83ba;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000334}}
+a:link, a:visited {
+  text-decoration: none;
+  color: #2a83ba;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000335}}
+a:hover, a:focus, a .active {
+  text-decoration: none;
+  color: #1e4760;
+}
+
+/*****************************************************************************/
+/* Layout                                                                    */
+/*****************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000370}}
+#page {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*****************************************************************************/
+/* Header                                                                    */
+/*****************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000377}}
+#logo {
+  float: left;
+  padding: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000377}}
+#logo img {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000378}}
+#site-name {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+  font-size: 60px;
+  font-size: 6rem;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000382}}
+#site-name a {
+  text-decoration: none;
+  color: #1e4760;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000334}}
+#site-name a:link, #site-name a:visited {
+  text-decoration: none;
+  color: #1e4760;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000335}}
+#site-name a:hover, #site-name a:focus, #site-name a .active {
+  text-decoration: none;
+  color: #2a83ba;
+}
+
+/*****************************************************************************/
+/* Main Menu                                                                 */
+/*****************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000388}}
+#block-system-main-menu {
+  line-height: 1em;
+  font-size: 12px;
+  font-size: 1.2rem;
+  display: block;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0;
+  background: white;
+  border: 1px solid #dde6ec;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000392}}
+#block-system-main-menu ul.menu {
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/compass\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_inline-list\.scss}line{font-family:\000035}}
+#block-system-main-menu ul.menu, #block-system-main-menu ul.menu li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000394}}
+#block-system-main-menu ul.menu li a {
+  display: inline-block;
+  padding: 9px;
+  height: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000395}}
+#block-system-main-menu ul.menu li.first a {
+  padding-left: 14px;
+  -webkit-border-radius: 5px 0px 0px 5px;
+  -moz-border-radius: 5px 0px 0px 5px;
+  -ms-border-radius: 5px 0px 0px 5px;
+  -o-border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 0px 0px 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000399}}
+#block-system-main-menu ul.menu a {
+  text-decoration: none;
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000334}}
+#block-system-main-menu ul.menu a:link, #block-system-main-menu ul.menu a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\0000335}}
+#block-system-main-menu ul.menu a:hover, #block-system-main-menu ul.menu a:focus, #block-system-main-menu ul.menu a .active {
+  text-decoration: none;
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003100}}
+#block-system-main-menu ul.menu a:link, #block-system-main-menu ul.menu a:visited {
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003101}}
+#block-system-main-menu ul.menu a:hover, #block-system-main-menu ul.menu a:focus {
+  background: #eee;
+}
+
+/*****************************************************************************/
+/* Tabs                                                                      */
+/*****************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003107}}
+ul.primary, ul.secondary {
+  list-style-type: none;
+  font-size: 11px;
+  font-size: 1.1rem;
+  line-height: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/share\/compass\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_inline-list\.scss}line{font-family:\000035}}
+ul.primary, ul.primary li, ul.secondary, ul.secondary li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003110}}
+ul.primary a, ul.secondary a {
+  display: inline-block;
+  margin: 0 3px;
+  padding: 3px 6px;
+  border: 1px solid #dde6ec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003114}}
+ul.primary a:hover, ul.primary a:focus, ul.primary a.active, ul.secondary a:hover, ul.secondary a:focus, ul.secondary a.active {
+  background: #f2f2f2;
+}
+
+/*****************************************************************************/
+/* Content                                                                   */
+/*****************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003119}}
+#content .wrap {
+  margin-bottom: 20px;
+  padding: 6px 10px;
+  background: white;
+  border: 1px solid #dde6ec;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003123}}
+h1#page-title {
+  font-size: 15px;
+  font-size: 1.5rem;
+  color: #8cabbe;
+  line-height: 1.2em;
+  margin: 0 0 0.5em 0;
+  padding: 5px 5px 5px 6px;
+  border-bottom: 1px solid #dde6ec;
+}
+
+/*****************************************************************************/
+/* Recommended Modules                                                       */
+/*****************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003131}}
+.recommended-modules {
+  font-size: 0.8em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003133}}
+.recommended-modules h2 {
+  display: block;
+  margin: 0;
+  padding: 5px 10px 0 10px;
+  padding-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003137}}
+.recommended-modules ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003141}}
+.recommended-modules li {
+  display: block;
+  margin: 5px;
+  padding: 0;
+  width: 300px;
+  float: left;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003146}}
+.recommended-modules h3 {
+  display: block;
+  margin: 0;
+  padding: 2px 4px;
+  background: #f2f2f2;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/riaan\/Projects\/hosted\/remixtest\/www\/sites\/all\/themes\/custom\/zen_slate\/sass\/zen_slate\.scss}line{font-family:\00003150}}
+.recommended-modules p {
+  display: block;
+  margin: 0;
+  padding: 5px;
+  line-height: 1.4em;
+  height: 30px;
+  overflow: hidden;
+}
+
+/*****************************************************************************/
